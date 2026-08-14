@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Belajar Informatika</title>
+
+    <!-- Memasukkan Template Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #b7d4e6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hero-section {
+            background-color: #0d2b45;
+            color: #dcc8aa;
+            padding: 50px 0;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+        }
+
+        .custom-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .laptop-info {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #eaf3ff;
+            border-radius: 8px;
+            text-align: center;
+            color: #0d2b45;
+            font-size: 14px;
+            font-weight: 500;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+        }
+
+        .laptop-info small {
+            display: block;
+            margin-top: 5px;
+            color: #555;
+            font-size: 12px;
+        }
+
+        .tips-box {
+            background-color: #eaf3ff;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #0d2b45;
+        }
+
+        .tips-box h4 {
+            color: #0d2b45;
+            margin-bottom: 5px;
+        }
+
+        .tips-box p {
+            margin: 0;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .media-box {
+            background: #eaf3ff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        .materi-section {
+            margin-top: 30px;
+        }
+
+        .materi-section h3 {
+            color: #0d2b45;
+            margin-bottom: 20px;
+        }
+
+        .materi-card {
+            background-color: #eaf3ff;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            border-bottom: 4px solid #0d2b45;
+            height: 100%;
+            transition: 0.2s;
+            cursor: pointer;
+        }
+
+        .materi-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 7px 15px rgba(0,0,0,0.12);
+        }
+
+        .materi-card h4 {
+            color: #0d2b45;
+            margin-top: 10px;
+        }
+
+        .materi-card p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .intro-section {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .intro-section > .col-md-6 {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar / Link -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                EduInformatika
+            </a>
+
+            <div class="collapse navbar-collapse">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#materi">
+                            Materi
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#daftar">
+                            Daftar
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Header / Heading, Paragraph, Text Formatting -->
+    <header class="hero-section text-center">
+
+        <div class="container">
+
+            <h1>
+                Selamat Datang di Kelas Pemrograman
+            </h1>
+
+            <p class="lead">
+                Tingkatkan keahlian
+                <strong>coding</strong>
+                kamu dari
+                <em>dasar</em>
+                hingga
+                <u>mahir</u>.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <div class="container">
+
+        <div class="row mb-5 intro-section">
+
+            <!-- Bagian kiri -->
+            <div class="col-md-6">
+
+                <h2>
+                    Tentang Program Kami
+                </h2>
+
+                <p>
+                    Program ini dirancang khusus untuk memfasilitasi pembelajaran jarak jauh.
+                    Kami menyediakan modul interaktif, praktik langsung, dan pendampingan mentor.
+                </p>
+
+                <img
+                    src="foto1.jpeg"
+                    alt="Belajar Coding"
+                    class="custom-img"
+                >
+
+                <div class="laptop-info">
+
+                    <strong>
+                        💻 Belajar • Praktik • Berkembang
+                    </strong>
+
+                    <small>
+                        Mulai dari dasar sampai bisa membuat program sendiri.
+                    </small>
+
+                </div>
+
+                <div class="tips-box">
+
+                    <h4>
+                        Tips Belajar
+                    </h4>
+
+                    <p>
+                        Latihan secara rutin dan pahami contoh program agar lebih mudah menguasai materi.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bagian kanan -->
+            <div class="col-md-6">
+
+                <h3>
+                    Keunggulan Kelas
+                </h3>
+
+                <ul>
+                    <li>Materi selalu <em>up-to-date</em>.</li>
+                    <li>Sistem belajar fleksibel.</li>
+                    <li>Sertifikat kelulusan.</li>
+                </ul>
+
+
+                <h3>
+                    Langkah Belajar:
+                </h3>
+
+                <ol>
+
+                    <li>
+                        Mendaftar melalui form di bawah.
+                    </li>
+
+                    <li>
+                        Mengakses modul video & audio.
+                    </li>
+
+                    <li>
+                        Mengerjakan tugas praktik.
+                    </li>
+
+                </ol>
+
+
+                <div class="materi-section mt-4">
+
+                    <h3>
+                        Materi yang Dipelajari
+                    </h3>
+
+                    <div class="row g-3">
+
+                        <div class="col-md-4">
+
+                            <div class="materi-card">
+
+                                <h4>
+                                    Algoritma
+                                </h4>
+
+                                <p>
+                                    Memahami logika pemrograman dan algoritma dasar
+                                    untuk menyelesaikan masalah.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-4">
+
+                            <div class="materi-card">
+
+                                <h4>
+                                    C++
+                                </h4>
+
+                                <p>
+                                    Mempelajari struktur data, looping, fungsi,
+                                    dan dasar pemrograman.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-4">
+
+                            <div class="materi-card">
+
+                                <h4>
+                                    Visual Basic
+                                </h4>
+
+                                <p>
+                                    Membuat aplikasi dengan tampilan interaktif
+                                    menggunakan Visual Basic.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Video & Audio -->
+        <div class="row mb-5 media-box">
+
+            <div class="col-md-6 text-center">
+
+                <h3>
+                    Cuplikan Materi (Video)
+                </h3>
+
+                <video width="100%" controls>
+
+                    <source
+                        src="https://www.w3schools.com/html/mov_bbb.mp4"
+                        type="video/mp4"
+                    >
+
+
+            </div>
+
+
+            <div class="col-md-6 text-center">
+
+                <h3>
+                    Podcast Pembuka (Audio)
+                </h3>
+
+                <br>
+
+                <audio controls>
+
+                    <source
+                        src="https://www.w3schools.com/html/horse.ogg"
+                        type="audio/ogg"
+                    >
+
+
+                </audio>
+
+                <p class="mt-3 text-muted">
+                    Dengarkan panduan awal sebelum memulai kelas.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Jadwal & Kurikulum -->
+        <div class="mb-5" id="materi">
+
+            <h2>
+                Jadwal & Kurikulum
+            </h2>
+
+            <table class="table table-bordered table-striped">
+
+                <thead class="table-primary">
+
+                    <tr>
+                        <th>Pertemuan</th>
+                        <th>Mata Pelajaran</th>
+                        <th>Keterangan</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Algoritma & Pemrograman Dasar</td>
+                        <td>Pengenalan Logika</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Pemrograman C++</td>
+                        <td>Struktur Data & Looping</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Visual Basic .NET</td>
+                        <td>Pemrograman Visual & GUI</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- Form -->
+        <div class="row mb-5 justify-content-center" id="daftar">
+
+            <div class="col-md-6 media-box">
+
+                <h2 class="text-center">
+                    Formulir Pendaftaran
+                </h2>
+
+                <form id="formPendaftaran">
+
+                    <div class="mb-3">
+
+                        <label
+                            for="namaLengkap"
+                            class="form-label"
+                        >
+                            Nama Lengkap:
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="namaLengkap"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label
+                            for="emailPendaftar"
+                            class="form-label"
+                        >
+                            Email:
+                        </label>
+
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="emailPendaftar"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label
+                            for="pilihKelas"
+                            class="form-label"
+                        >
+                            Pilih Kelas:
+                        </label>
+
+                        <select
+                            class="form-select"
+                            id="pilihKelas"
+                        >
+
+                            <option value="cpp">
+                                Kelas C++
+                            </option>
+
+                            <option value="vb">
+                                Kelas Visual Basic
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary w-100"
+                    >
+                        Daftar Sekarang
+                    </button>
+
+                </form>
+
+
+                <div
+                    id="pesanSukses"
+                    class="alert alert-success mt-3 d-none"
+                ></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer class="bg-dark text-white text-center py-3">
+
+        <p>
+            &copy; 2026 EduInformatika. Tugas Pemrograman Web.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        const form =
+            document.getElementById('formPendaftaran');
+
+        const pesanSukses =
+            document.getElementById('pesanSukses');
+
+
+        form.addEventListener('submit', function(event) {
+
+            event.preventDefault();
+
+
+            const nama =
+                document.getElementById('namaLengkap').value;
+
+
+            pesanSukses.classList.remove('d-none');
+
+
+            pesanSukses.innerHTML =
+                `Terima kasih, <strong>${nama}</strong>! Pendaftaran kamu telah berhasil kami terima.`;
+
+
+            form.reset();
+
+        });
+
+    </script>
+
+</body>
+</html>
